@@ -1,3 +1,4 @@
+sudo yum install jupyter -y
 pip install jupyter_http_over_ws
 
 

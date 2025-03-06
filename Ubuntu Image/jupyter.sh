@@ -1,3 +1,8 @@
+sudo apt install jupyter -y
+sudo apt update -y
+sudo apt upgrade -y
+
+
 pip install jupyter_http_over_ws
 
 
