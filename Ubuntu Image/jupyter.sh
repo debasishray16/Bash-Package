@@ -1,6 +1,13 @@
 pip install jupyter_http_over_ws
 
-jupyter serverextension enable -py jupyter_http_over_ws
+
+jupyter --version
+pip install --upgrade jupyter jupyterlab notebook
+pip install --upgrade jupyter_http_over_ws
+
+
+jupyter server extension enable --py jupyter_http_over_ws --user
+
 
 jupyter notebook 
     - NotebookApp.allow_origin='https://colab.research.google.com' 
