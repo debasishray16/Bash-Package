@@ -21,3 +21,7 @@ jupyter notebook \
     --NotebookApp.disable_check_xsrf=True \
     --NotebookApp.ip='0.0.0.0' \
     --NotebookApp.open_browser=False
+
+
+# To view GPU usage with every sec in terminal
+watch -n 1 nvidia-smi

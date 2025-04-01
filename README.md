@@ -46,3 +46,20 @@ scp
 # scp -i <pem key location on local machine> <zip file location> <ubuntu@your-aws-ip>:<location on remote file>
 scp -i C:\Users\debas\Downloads\ubuntu_key.pem C:\Users\debas\Downloads\landcoverai-20250306T133829Z-001.zip ubuntu@ec2-43-204-101-227.ap-south-1.compute.amazonaws.com:/home/ubuntu/
 
+```
+
+
+## To install S3 on EC2 instance
+
+```bash
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+unzip awscliv2.zip
+
+sudo ./aws/install
+
+aws --version
+
+# to remve optionally downloaded files
+rm -rf awscliv2.zip aws/
+```
