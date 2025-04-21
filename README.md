@@ -63,3 +63,9 @@ aws --version
 # to remve optionally downloaded files
 rm -rf awscliv2.zip aws/
 ```
+
+```bash
+# To view GPU usage with every sec in terminal
+
+watch -n 1 nvidia-smi
+```
